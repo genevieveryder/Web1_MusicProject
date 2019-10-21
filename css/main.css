@@ -98,6 +98,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   header{
+    background-color: #5BF5FF;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+   }
+
+
+   .navbar {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 auto;
+   }
+
+   .navbar a{
+     color: #000;
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+     margin: 6px;
+     text-decoration: none;
+   }
+
+   .hero{
+
+   }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +293,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
