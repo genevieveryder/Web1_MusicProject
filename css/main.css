@@ -107,7 +107,7 @@ textarea {
    }
 
 
-   .navbar {
+   .navbar{
      width: 100%;
      display: flex;
      justify-content: space-between;
@@ -123,10 +123,107 @@ textarea {
      text-decoration: none;
    }
 
-   .hero{
-
+   .navbar a:hover{
+     color: #fff;
    }
 
+
+   .hero{
+     background-color: #000;
+     width: 100%;
+     display: flex;
+     height: 296px;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+   }
+
+   .logo{
+     background-color: #FD65D3;
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     margin: 0 auto;
+   }
+
+   .logo img{
+     width: 80%;
+     margin: 15px;
+   }
+
+   .about{
+     background-color: #FD65D3;
+     background-image: url('../img/slayyyterangel.jpg');
+     width: 100%;
+     height: 600px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+
+   .sectionbox{
+     width: 80%;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     margin: 0 auto;
+   }
+
+   .about_body{
+    font-family: "Cute Font", serif;
+    font-size: 24px;
+    color: #000;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    text-align: left;
+    margin: 10px
+   }
+
+   .about_title h1{
+     font-family:"Permanent Marker", serif;
+     font-size: 245px;
+     color: #fff;
+     font-weight: 400px;
+     text-shadow: 12px 12px 17px rgba(91,245,255, .8);
+   }
+
+   .tour{
+     background-image: url('../img/slayyytersinging.jpg');
+     width: 100%;
+     height: 600px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+
+   .tour_title h1{
+     font-family:"Permanent Marker", serif;
+     font-size: 245px;
+     color: #fff;
+     font-weight: 400px;
+     text-shadow: 12px 12px 17px rgba(91,245,255, .8);
+   }
+
+   .testimonial{
+     background-image: url('../img/slayyyterbutterfly.jpg');
+     width: 100%;
+     height: 600px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+
+   .testimonial_title h1{
+     font-family:"Permanent Marker", serif;
+     font-size: 245px;
+     color: #fff;
+     font-weight: 400px;
+     text-shadow: 12px 12px 17px rgba(91,245,255, .8);
+   }
 
 /* ==========================================================================
    Helper classes
