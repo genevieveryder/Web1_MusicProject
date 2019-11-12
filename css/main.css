@@ -513,11 +513,13 @@
   }
 
   /* On screens that are 1000px wide or less */
+
+  /* Made font size a touch smaller for this media query */
   @media screen and (max-width: 1000px) {
     .about_title h1 {
       font-family: "Permanent Marker", serif;
-      font-size: 145px;
-      color: #fff;
+      font-size: 125px;
+        color: #fff;
       font-weight: 400px;
       text-shadow: 12px 12px 17px rgba(91, 245, 255, .8);
       -webkit-transform: rotate(-12deg);
@@ -566,12 +568,22 @@
       position: relative;
       right: -500px;
       top: -350px;
+
+      width: 85%;
+    }
+
+/* Made font size a touch smaller for this media query */
+    .tour_title h1 {
+      font-family: "Permanent Marker", serif;
+      font-size: 125px;
+
     }
 
 
     .tour_title h1 {
       font-family: "Permanent Marker", serif;
       font-size: 145px;
+
       color: #fff;
       font-weight: 400px;
       text-shadow: 12px 12px 17px rgba(91, 245, 255, .8);
@@ -582,9 +594,11 @@
       margin: 0 auto;
     }
 
+
+/* Made font size a touch smaller for this media query */
     .testimonial_title h1 {
       font-family: "Permanent Marker", serif;
-      font-size: 145px;
+      font-size: 125px;
       color: #fff;
       font-weight: 400px;
       text-shadow: 12px 12px 17px rgba(91, 245, 255, .8);
@@ -646,10 +660,18 @@
   }
 
   /* On screens that are 900px wide or less */
+
+  /* Made font size a touch smaller for this media query */
   @media screen and (max-width: 900px) {
+
+/* Hide the side scroll on smaller screens */
+    html{
+      overflow-x: hidden;
+    }
+
     .about_title h1 {
       font-family: "Permanent Marker", serif;
-      font-size: 130px;
+      font-size: 120px;
       color: #fff;
       font-weight: 400px;
       text-shadow: 12px 12px 17px rgba(91, 245, 255, .8);
@@ -675,12 +697,15 @@
       left: 5px;
     }
 
+
+/* Positioned the cherry just a bit more according to your design*/
     .cherry_icon {
       position: relative;
-      top: 900px;
-      left: 20%;
-
+      top: 940px;
+      left: 15%;
+      width: 45%;
     }
+
     .tour_body {
       font-family: "Cute Font", serif;
       font-size: 38px;
@@ -694,11 +719,14 @@
       margin: 10px;
     }
 
+/* Brought in lollipop image just a tad more and made it a touch smaller */
     .lollipop_icon {
       position: relative;
-      right: -450px;
+      right: -425px;
       top: -350px;
+      width: 85%;
     }
+
     #date_list {
       width: 100%;
       display: flex;
@@ -722,9 +750,10 @@
       left: 10px;
     }
 
+/* Made font size a touch smaller for this media query */
     .tour_title h1 {
       font-family: "Permanent Marker", serif;
-      font-size: 130px;
+      font-size: 120px;
       color: #fff;
       font-weight: 400px;
       text-shadow: 12px 12px 17px rgba(91, 245, 255, .8);
@@ -735,9 +764,10 @@
       margin: 0 auto;
     }
 
+/* Made font size a touch smaller for this media query */
     .testimonial_title h1 {
       font-family: "Permanent Marker", serif;
-      font-size: 130px;
+      font-size: 120px;
       color: #fff;
       font-weight: 400px;
       text-shadow: 12px 12px 17px rgba(91, 245, 255, .8);
@@ -764,10 +794,12 @@
       left: 250px;
     }
 
+
+/* Helps to center the perfume image on top of the footer */
     .perfume_icon {
       position: relative;
       top: 10px;
-      left: 5px;
+      left: -25px;
     }
 
     #testimonial_part_1 {
