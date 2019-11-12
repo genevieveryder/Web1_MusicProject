@@ -513,12 +513,13 @@
   }
 
   /* On screens that are 1000px wide or less */
+
   /* Made font size a touch smaller for this media query */
   @media screen and (max-width: 1000px) {
     .about_title h1 {
       font-family: "Permanent Marker", serif;
       font-size: 125px;
-      color: #fff;
+        color: #fff;
       font-weight: 400px;
       text-shadow: 12px 12px 17px rgba(91, 245, 255, .8);
       -webkit-transform: rotate(-12deg);
@@ -567,6 +568,7 @@
       position: relative;
       right: -500px;
       top: -350px;
+
       width: 85%;
     }
 
@@ -574,6 +576,14 @@
     .tour_title h1 {
       font-family: "Permanent Marker", serif;
       font-size: 125px;
+
+    }
+
+
+    .tour_title h1 {
+      font-family: "Permanent Marker", serif;
+      font-size: 145px;
+
       color: #fff;
       font-weight: 400px;
       text-shadow: 12px 12px 17px rgba(91, 245, 255, .8);
@@ -583,6 +593,7 @@
       top: -100px;
       margin: 0 auto;
     }
+
 
 /* Made font size a touch smaller for this media query */
     .testimonial_title h1 {
@@ -649,6 +660,7 @@
   }
 
   /* On screens that are 900px wide or less */
+
   /* Made font size a touch smaller for this media query */
   @media screen and (max-width: 900px) {
 
@@ -684,6 +696,7 @@
       top: -250px;
       left: 5px;
     }
+
 
 /* Positioned the cherry just a bit more according to your design*/
     .cherry_icon {
@@ -780,6 +793,7 @@
       position: relative;
       left: 250px;
     }
+
 
 /* Helps to center the perfume image on top of the footer */
     .perfume_icon {
