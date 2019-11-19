@@ -8,7 +8,7 @@
 	<link href="site.webmanifest" rel="manifest">
 	<link href="icon.png" rel="apple-touch-icon"><!-- Place favicon.ico in the root directory -->
 	<link href="css/normalize.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
+	<link href="css/main_mini.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
 	<header>
 		<div class="navbar">
 			<div>
-				<a href=""><img src="img/smalls.png" alt="a geometric white s with a slight shadow"></a>
+				<a href=""><img alt="a geometric white s with a soft shadow" src="img/smalls.png"></a>
 			</div>
 			<nav>
 				<a href="#about">ABOUT</a> <a href="#tour">TOUR</a> <a href="#fans">TESTIMONIAL</a>
@@ -25,10 +25,10 @@
 		</div>
 	</header>
 	<section class="hero">
-		<div><img src="img/smallsblue.png" alt="a geometric white s with a slight neon blue shadow"></div>
+		<div><img alt="a geometric white s with a soft neon blue shadow" src="img/smallsblue.png"></div>
 	</section>
 	<section class="logo">
-		<div><img src="img/slayyyterlogo.png" alt="the word Slayyyter written in white blackletter font with a neon blue shadow"></div>
+		<div><img alt="the word Slayyyter written in white colored blackletter font with a neon blue shadow" src="img/slayyyterlogo.png"></div>
 	</section>
 	<section class="about">
 		<div class="about_image"></div>
@@ -37,14 +37,11 @@
 		</div>
 	</section>
 	<section class="about_body" id="about">
-		<div class="cherry_icon"><img src="img/cherry.png" alt="two 8-bit red and pink cherries"></div>
+		<div class="cherry_icon"><img alt="two 8-bit red and pink cherries connected at the stem" src="img/cherry.png"></div>
 		<div class="about_text">
 			<p>Catherine Slater (born September 17, 1996), known professionally as Slayyyter, is an American pop singer and songwriter, currently based in St. Louis. She started her career independently through SoundCloud. She was originally named Slater, before renaming herself to Slayyyter. Her single release "Mine" reached number 38 on the iTunes pop chart.</p>
-      <p>Her music style has been likened to Britney Spears, Lindsay Lohan and Paris Hilton, as well as sounding somewhat "like Charli XCX on whippets". Slayyyter cites Britney Spears, Timbaland, Nelly Furtado, Lady Gaga, and Justin Timberlake as some of the artists she listened to the most growing up and who ultimately influenced her musical style. Slayyyter's visual style has been defined as "distinct MySpace-era". She frequently collaborates with British-based artist Glitchmood for single artworks.</p>
+			<p>Her music style has been likened to Britney Spears, Lindsay Lohan and Paris Hilton, as well as sounding somewhat "like Charli XCX on whippets". Slayyyter cites Britney Spears, Timbaland, Nelly Furtado, Lady Gaga, and Justin Timberlake as some of the artists she listened to the most growing up and who ultimately influenced her musical style. Slayyyter's visual style has been defined as "distinct MySpace-era". She frequently collaborates with British-based artist Glitchmood for single artworks.</p>
 		</div>
-
-
-
 	</section>
 	<section class="tour" id="tour">
 		<div class="tour_image"></div>
@@ -83,7 +80,7 @@
 				ATLANTA</p>
 			</div>
 		</div>
-		<div class="lollipop_icon"><img src="img/lollipop.png" alt="8-bit shiny pink spherical lollipop"></div>
+		<div class="lollipop_icon"><img alt="8-bit shiny pink spherical lollipop" src="img/lollipop.png"></div>
 	</section>
 	<section class="testimonial">
 		<div class="testimonial_image"></div>
@@ -110,7 +107,7 @@
 				- Jason, NYC USA</p>
 			</div>
 		</div>
-		<div class="perfume_icon"><img src="img/perfume.png" alt="8-bit heart-shaped bottle of glittery pink perfume"></div>
+		<div class="perfume_icon"><img alt="8-bit heart-shaped bottle of glittery pink perfume" src="img/perfume.png"></div>
 	</section>
 	<footer>
 		<a href="">2025 © COPYRIGHT</a> <a href="">PRIVACY</a> <a href="">LEGAL</a>
@@ -120,38 +117,38 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js">
 	</script>
 	<script>
-	window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+	   window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
 	</script>
 	<script src="js/plugins.js">
 	</script>
-  <script type="text/javascript">
-// Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-      &&
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-        });
-      }
-    }
-  });
-  </script>
+	<script type="text/javascript">
+	// Select all links with hashes
+	$('a[href*="#"]')
+	 // Remove links that don't actually link to anything
+	 .not('[href="#"]')
+	 .not('[href="#0"]')
+	 .click(function(event) {
+	   // On-page links
+	   if (
+	     location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+	     &&
+	     location.hostname == this.hostname
+	   ) {
+	     // Figure out element to scroll to
+	     var target = $(this.hash);
+	     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+	     // Does a scroll target exist?
+	     if (target.length) {
+	       // Only prevent default if animation is actually gonna happen
+	       event.preventDefault();
+	       $('html, body').animate({
+	         scrollTop: target.offset().top
+	       }, 1000, function() {
+	         // Callback after animation
+	       });
+	     }
+	   }
+	 });
+	</script>
 </body>
 </html>
